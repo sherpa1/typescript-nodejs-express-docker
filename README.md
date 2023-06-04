@@ -1,6 +1,6 @@
 # TypeScript + Node.js + Docker Starter Kit
 
-https://github.com/justDare/TypeScript-Node-Docker
+Inspiré du projet : https://github.com/justDare/TypeScript-Node-Docker
 
 --
 

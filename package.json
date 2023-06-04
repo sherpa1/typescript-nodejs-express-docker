@@ -1,5 +1,5 @@
 {
-  "name": "ts-node-docker",
+  "name": "starterkit",
   "version": "1.0.0",
   "description": "TypeScript + Node.js + Docker",
   "main": "index.js",

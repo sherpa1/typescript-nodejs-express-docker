@@ -1,7 +1,8 @@
 version: '3.9'
 
 services:
-  ts-node-docker:
+  app:
+    container_name: app
     environment:
       - NODE_ENV=developement
       - PORT=3000
@@ -12,7 +13,6 @@ services:
     volumes:
       - ./src:/usr/src/app/src
       - ./nodemon.json:/usr/src/app/nodemon.json
-    container_name: ts-node-docker
     ports:
       - 4000:3000
     command: npm run dev
